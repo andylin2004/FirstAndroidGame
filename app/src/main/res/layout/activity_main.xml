@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="142dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="You are in "
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/choice1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="100px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="25px"
+            android:layout_weight="1"
+            android:onClick="button1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choice2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="100px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="25px"
+            android:layout_weight="1"
+            android:onClick="button2"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choice3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="100px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="25px"
+            android:layout_weight="1"
+            android:onClick="button3"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/choice4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="100px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="25px"
+            android:layout_marginEnd="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="25px"
+            android:layout_weight="1"
+            android:onClick="button4"
+            android:text="Button" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
